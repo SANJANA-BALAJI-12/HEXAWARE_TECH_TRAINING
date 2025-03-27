@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-7"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 04:57:45 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNDo1MDo1MiBQTTsyOTcx"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNDo1Nzo0NSBQTTsyOzMwODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to Find Fibonacci series of a given number"/>
+            <declare name="n, a, b, c, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the num&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="i" expression="0"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <while expression="i&lt;n">
+                <assign variable="c" expression="a+b"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="c"/>
+                <output expression="c" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-4"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 01:57:10 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswMTo0Mjo1MCBQTTsyOTY3"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswMTo1NzoxMCBQTTsxOzMwNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to find Factorial of any given Number"/>
+            <declare name="num, fact, i" type="Integer" array="False" size=""/>
+            <assign variable="fact" expression="1"/>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;Enter a Number: &quot;" newline="True"/>
+            <input variable="num"/>
+            <while expression="i &lt;= num">
+                <assign variable="fact" expression="fact * i"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

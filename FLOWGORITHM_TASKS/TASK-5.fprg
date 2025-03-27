@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-5"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 04:01:24 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswMzo0Nzo1NSBQTTsyOTc5"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNDowMToyNCBQTTsxOzMwNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to check whether the given number is prime"/>
+            <declare name="num, i" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <declare name="prime" type="Boolean" array="False" size=""/>
+            <assign variable="prime" expression="True"/>
+            <for variable="i" start="2" end="num -1" direction="inc" step="1">
+                <if expression="num%i==0">
+                    <then>
+                        <assign variable="prime" expression="False"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="Prime" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

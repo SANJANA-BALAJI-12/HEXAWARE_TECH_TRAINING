@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-8"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 05:25:01 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNDo1Nzo0OSBQTTsyOTg0"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNToyNTowMSBQTTs0OzMwNzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to print sum of all entered numbers"/>
+            <declare name="n, i, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the number of Digits&quot;" newline="True"/>
+            <input variable="n"/>
+            <declare name="arr" type="Integer" array="True" size="n"/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;Enter the Numbers&quot;" newline="True"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <input variable="arr[i]"/>
+                <assign variable="sum" expression="sum+arr[i]"/>
+            </for>
+            <output expression="&quot;The sum of all the numbers entered: &quot;&amp;sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

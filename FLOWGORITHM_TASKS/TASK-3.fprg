@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-3"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 05:57:42 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswMToxMTozMiBQTTsyOTYz"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNTo1Nzo0MiBQTTsyOzMwODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to check Palindrome Or NOt"/>
+            <declare name="num, reverse, remainder, temp" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="125"/>
+            <assign variable="temp" expression="num"/>
+            <assign variable="reverse" expression="0"/>
+            <while expression="num &gt; 0">
+                <assign variable="remainder" expression="num%10"/>
+                <assign variable="reverse" expression="(reverse * 10)+remainder"/>
+                <assign variable="num" expression="num/10"/>
+            </while>
+            <if expression="temp == reverse">
+                <then>
+                    <output expression="&quot;Palindrome&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Not a Palindrome&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

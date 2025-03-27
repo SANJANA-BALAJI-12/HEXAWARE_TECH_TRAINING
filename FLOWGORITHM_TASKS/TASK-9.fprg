@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-10"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 05:45:52 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNToyNjozNyBQTTsyOTc4"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNTo0NTo1MiBQTTszOzMwODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to print sum of all even numbers"/>
+            <declare name="number, sum, digit" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the num&quot;" newline="True"/>
+            <input variable="number"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="number&gt;0">
+                <assign variable="digit" expression="number%10"/>
+                <if expression="digit%2==0">
+                    <then>
+                        <assign variable="sum" expression="sum+digit"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="number" expression="number/10"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

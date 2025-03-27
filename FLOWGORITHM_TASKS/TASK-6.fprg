@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-6"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 04:26:09 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNDoxOTozOSBQTTsyOTgx"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNDoyNjowOSBQTTsxOzMwODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to find Armstrong Number Or Not"/>
+            <declare name="total, length" type="Integer" array="False" size=""/>
+            <assign variable="total" expression="0"/>
+            <declare name="value" type="String" array="False" size=""/>
+            <input variable="value"/>
+            <for variable="length" start="0" end="len(value)-1" direction="inc" step="1">
+                <assign variable="total" expression="total + ToInteger(Char(value,length))^3"/>
+            </for>
+            <if expression="total = ToInteger(value)">
+                <then>
+                    <output expression="&quot;Is an Armstrong Number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Not an Armstrong Number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

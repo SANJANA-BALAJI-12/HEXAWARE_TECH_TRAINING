@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-10"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 06:06:12 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNTozNDo0NSBQTTsyOTc2"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswNjowNjoxMiBQTTszOzMwODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Real" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the value of a:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter the value of b:&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Enter the value of c:&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="d" expression="(b * b) - (4 * a * c)"/>
+            <if expression="d&gt;0">
+                <then>
+                    <declare name="r1, r2" type="Real" array="False" size=""/>
+                    <assign variable="r1" expression="(-b+sqrt(d))/ ( 2*a)"/>
+                    <assign variable="r2" expression="(-b-sqrt(d))/(2*a)"/>
+                    <output expression="&quot;Different root&quot;&amp;r1&amp;&quot;,&quot;&amp;r2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="d==0">
+                        <then>
+                            <declare name="R" type="Real" array="False" size=""/>
+                            <assign variable="R" expression="-b/(2*a)"/>
+                            <output expression="&quot;Real and Repeated&quot;&amp; R" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="root, img" type="Real" array="False" size=""/>
+                            <assign variable="root" expression="-b/(2*a)"/>
+                            <assign variable="img" expression="sqrt(-d)/(2*a)"/>
+                            <output expression="&quot;Complex roots&quot;&amp;root&amp;&quot;+ or -&quot;&amp;img" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

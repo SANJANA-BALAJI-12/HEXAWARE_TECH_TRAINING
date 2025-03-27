@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TASK-1"/>
+        <attribute name="authors" value="Sanjana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-13 01:21:19 PM"/>
+        <attribute name="created" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzsxMjoyMjo0NCBQTTsyOTcw"/>
+        <attribute name="edited" value="U2FuamFuYTtMQVBUT1AtNkQxNzlCUzY7MjAyNS0wMy0xMzswMToyMToxOSBQTTsyOzMwNzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Program to find Leap Year or Not"/>
+            <declare name="Year" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the Year: &quot;" newline="True"/>
+            <input variable="Year"/>
+            <if expression="Year % 4 == 0 AND (Year % 100 != 0 OR Year % 400 == 0)">
+                <then>
+                    <output expression="&quot;Leap Year&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Not a Leap Year&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
