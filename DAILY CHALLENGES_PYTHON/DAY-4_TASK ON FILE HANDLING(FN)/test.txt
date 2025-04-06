@@ -1,0 +1,3 @@
+Hello, Sanjana!
+This is a sample text file for testing purposes.
+Enjoy working with your Python package!
