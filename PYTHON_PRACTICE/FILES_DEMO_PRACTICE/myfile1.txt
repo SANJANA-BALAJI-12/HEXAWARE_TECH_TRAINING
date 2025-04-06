@@ -1,0 +1,10 @@
+Learning Python is fun!
+File handling allows us to store data for future use.
+Program Flow:
+1.A file named myfile1.txt is opened for writing.
+2.The user is prompted to enter multiple strings one by one.
+3.The user enters strings, and each string is written into the file as a separate line.
+4.The loop ends when the user enters @.
+5.The file is closed.
+
+

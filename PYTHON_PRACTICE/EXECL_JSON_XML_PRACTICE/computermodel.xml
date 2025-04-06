@@ -1,0 +1,11 @@
+<model>
+  <child name="Acer" qty="12">Acer is a laptop</child>
+  <unique>Add model number here</unique>
+  <child name="Onida" qty="10">Onida is an oven</child>
+  <child name="Acer" qty="7">Exclusive</child>
+  <unique>Add price here</unique>
+  <data>Add content here
+     <family>Add company name here</family>
+     <size>Add number of employees here</size>
+  </data>
+</model>

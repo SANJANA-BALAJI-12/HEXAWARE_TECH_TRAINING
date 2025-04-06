@@ -1,0 +1,7 @@
+ Hello, world!.
+ This is a test file created using python.
+ I am learning how to work with files and save content into them.Python makes file handling easy!
+Appending content is a powerful feature.
+Learning file operations step by step is rewarding.
+File handling ensures we can save and retrieve data efficiently.
+

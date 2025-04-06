@@ -1,0 +1,10 @@
+setup.py
+Mypackage.egg-info/PKG-INFO
+Mypackage.egg-info/SOURCES.txt
+Mypackage.egg-info/dependency_links.txt
+Mypackage.egg-info/not-zip-safe
+Mypackage.egg-info/top_level.txt
+mypackage/Main.py
+mypackage/Module1.py
+mypackage/Module2.py
+mypackage/__init__.py

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Mypackage
+Version: 1.0
+Summary: A simple Python package example
+Home-page: #
+Author: Sanjana
+Author-email: sanjana@example.com
+License: MIT
