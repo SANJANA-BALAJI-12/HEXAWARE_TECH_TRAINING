@@ -1,0 +1,9 @@
+setup.py
+Database_Connectivity/Connection.py
+Database_Connectivity/INSERTION.py
+Database_Connectivity/__init__.py
+Database_Connectivity.egg-info/PKG-INFO
+Database_Connectivity.egg-info/SOURCES.txt
+Database_Connectivity.egg-info/dependency_links.txt
+Database_Connectivity.egg-info/requires.txt
+Database_Connectivity.egg-info/top_level.txt

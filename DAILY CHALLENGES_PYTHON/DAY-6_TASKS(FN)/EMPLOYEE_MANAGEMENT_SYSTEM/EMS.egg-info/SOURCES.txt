@@ -1,0 +1,14 @@
+setup.py
+EMS/CRUD_OPERATIONS.py
+EMS/DB_Connection.py
+EMS/Employee.py
+EMS/EmployeesManager.py
+EMS/FrontendManager.py
+EMS/Main.py
+EMS/__init__.py
+EMS/utility.py
+EMS.egg-info/PKG-INFO
+EMS.egg-info/SOURCES.txt
+EMS.egg-info/dependency_links.txt
+EMS.egg-info/requires.txt
+EMS.egg-info/top_level.txt
