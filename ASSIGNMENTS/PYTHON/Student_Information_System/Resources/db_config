@@ -1,0 +1,4 @@
+driver=ODBC Driver 17 for SQL Server
+server=localhost
+database=SISDB
+trusted_connection=yes
